@@ -60,7 +60,7 @@
                         </div>
                         <ul class="contact-info">
                             <li><img src="assets/images/contact-info-01.png" alt="">0851-5662-8350</li>
-                            <li><img src="assets/images/contact-info-02.png" alt="">tririzki222@gmail.com</li>
+                            <li><img src="assets/images/contact-info-02.png" alt="">tririzki@gmail.com</li>
                             <li><img src="assets/images/contact-info-03.png" alt="">www.test.com</li>
                         </ul>
                     </div>
