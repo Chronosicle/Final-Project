@@ -41,24 +41,26 @@
             <h2>@<?php echo $data['username'] ?></h2>
         </div>
     </div>
-    <table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Bio</th>
-      <th scope="col">Description</th>
-      <th scope="col">Contact</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td><?php echo $data['bio'];?></td>
-      <td><?php echo $data['description'];?></td>
-      <td><?php echo $data['email'];?></td>
-    </tr>
-  </tbody>
-</table>
+    <div class="table-responsive">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Bio</th>
+            <th scope="col">Desc</th>
+            <th scope="col">Contact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><?php echo $data['bio'];?></td>
+            <td><?php echo $data['description'];?></td>
+            <td><?php echo $data['email'];?></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
 <?php
     include 'footer.php';
