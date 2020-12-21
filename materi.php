@@ -191,6 +191,7 @@
                                         </div>
                                         <p> <strong>Bilangan dengan basis (radix) r terdiri dari {0,1,2 …, r-1} </strong></p><br>
                                         <h1>Kode yang lain</h1>
+                                        <div class="table-responsive">
                                         <table class="table" style="text-align:center;">
                                         <thead class="thead-dark">
                                             <tr>
@@ -316,6 +317,7 @@
                                             </tr>
                                         </tbody>
                                         </table>
+                                        </div>
 
                                         <p>ASCII (American Standard Code for Information Interchange)</p>
                                         <p>Setiap kode direpresentasikan oleh 7 bit</p>
