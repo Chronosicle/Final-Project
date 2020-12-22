@@ -63,7 +63,7 @@
     <div class="jumbotron">
         <div class="container">
         <form action="update.php" method="POST" enctype="multipart/form-data">
-            <div class="form-group">
+            <div clsass="form-group">
                 <label for="exampleInputEmail1">Bio</label>
                 <input type="text" class="form-control" name="bio" value="<?= $row['bio'] ?>">
                 <!-- <small id="emailHelp" class="form-text text-muted">Jangan lebay bang</small> -->

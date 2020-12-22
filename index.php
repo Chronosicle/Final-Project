@@ -49,7 +49,7 @@
   </div>
 </div>
 
-<section class="section" id="contact-us">
+    <section class="section" id="contact-us">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-xs-12">

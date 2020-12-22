@@ -440,7 +440,7 @@
                                             <h4 class="panel-title">
                                                 <a href="#collapseCardSix" class="d-block card-header py-3" data-toggle="collapse" data-parent="#accordion"
                                                     role="button" aria-expanded="false" aria-controls="collapseCardSix">
-                                                    <h6 class="m-0 font-weight-bold text-primary">Enam</h6>
+                                                    <h6 class="m-0 font-weight-bold text-primary">Flip-Flop</h6>
                                                 </a>
                                             </h4>
                                         </div>
@@ -471,7 +471,7 @@
     </div>
     <!-- End of Page Wrapper -->
     
-<section class="section" id="contact-us">
+    <section class="section" id="contact-us">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-xs-12">
