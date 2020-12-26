@@ -16,8 +16,8 @@
 
     $pageTitle = 'Profile @'.$data['username'].' | Instagram KA WE :)';
     include 'header.php';
-    include 'homeheader.php';
 ?>
+
 <nav>
   <ul class="menu">
     <li class="item"><a href="index.php">Home</a></li>
@@ -64,5 +64,4 @@
 
 <?php
     include 'footer.php';
-    include 'homefooter.php';
 ?>    

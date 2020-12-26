@@ -32,14 +32,12 @@
     
     $pageTitle = 'Register';
     include 'header.php';
-    include 'homeheader.php';
 ?>
 
     <nav>
         <ul class="menu">
             <li class="item"><a href="index.php">Home</a></li>
             <li class="item has-submenu">
-            <li class="item"><a href="#">Contact</a>
             <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
         </ul>
     </nav>
@@ -91,5 +89,4 @@
     </script>
 <?php
     include 'footer.php';
-    include 'homefooter.php';
 ?>

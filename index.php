@@ -8,23 +8,10 @@
     $i = 0;
     mysqli_close($conn);
 
-    $pageTitle = 'Homepage';
+    $pageTitle = 'Landing Page';
     include 'header.php';
-    include 'homeheader.php';
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/templatemo-breezed.css">
-</head>
-<body>
-<div id="preloader">
-    <div class="jumper">
-    </div>
-</div>  
 <nav>
   <ul class="menu">
     <li class="item"><a href="index.php">Home</a></li>
@@ -68,21 +55,7 @@
             </div>
         </div>
     </section>
-    <!-- <div class="col-lg-8 col-md-8 col-xs-12">
-      <div class="contact-form">
-        <form id="contact" action="" method="get">
-          <div class="row">
-            <div class="col-md-6 col-sm-12">
-              <fieldset>
-                <input name="name" type="text" id="name" placeholder="Your Name *" required="">
-              </fieldset>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div> -->
-
-    <!-- ***** Footer Start ***** -->
+    
     <footer>
         <div class="container">
             <div class="row">
@@ -96,12 +69,7 @@
             </div>
         </div>
     </footer>
-    <!-- ***** Contact Us Area Ends ***** -->
-  <!-- <img src="images/third slide.jpeg" class="responsive"> -->
-</body>
-</html>
 
 <?php 
   include 'footer.php';
-  include 'homefooter.php';
 ?>

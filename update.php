@@ -50,7 +50,6 @@
     
     $pageTitle = 'Update Profile | Instagram KA WE :)';
     include 'header.php';
-    include 'homeheader.php';
 ?>
    <nav>
         <ul class="menu">
@@ -84,5 +83,4 @@
 
 <?php 
     include 'footer.php';
-    include 'homefooter.php';
 ?>
