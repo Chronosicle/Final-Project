@@ -437,13 +437,13 @@
                                         <div class="panel-heading" role="tab" id="headingOne">
                                             <h4 class="panel-title">
                                                 <a href="#collapseCardOne" class="d-block card-header py-3" data-toggle="collapse" data-parent="#accordion"
-                                                    role="button" aria-expanded="true" aria-controls="collapseCardOne">
+                                                    role="button" aria-expanded="false" aria-controls="collapseCardOne">
                                                     <h6 class="m-0 font-weight-bold text-primary">Karnaugh Map</h6>
                                                 </a>
                                             </h4>
                                         </div>
                                 <!-- Card Content - Collapse -->
-                                        <div class="panel-collapse collapse in" id="collapseCardOne" role="tabpanel" aria-labelledby="headingOne">
+                                        <div class="panel-collapse collapse" id="collapseCardOne" role="tabpanel" aria-labelledby="headingOne">
                                             <div class="card-body">
                                                 <h5><strong>Pengertian K-Map</strong></h5>
                                                 <p>Peta Karnaugh atau Karnaugh Map atau K-Map adalah suatu teknik penyederhanaan ekspresi aljabar Boole (fungsi logika aljabar Boolean) dengan cara pemetaan yang ditemukan oleh seorang ahli fisika dan matematika bernama Maurice Karnaugh pada tahun 1953.</p><br>
@@ -506,7 +506,7 @@
                                         </div>
                                             <!-- Card Content - Collapse -->
                                         <div class="panel-collapse collapse" id="collapseCardSeven" role="tabpanel" aria-labelledby="headingSeven">
-                                            <div class="card-body" style="font-size=50px;">
+                                            <div class="card-body">
                                                 <p>1. Konversikan bilangan berikut: </p>
                                                 <p>a. (10010110)<sub>2</sub> = (…..)<sub>8</sub> = (….)<sub>16</sub><br>b. (1A8)<sub>16</sub> = (…..)<sub>8</sub> = (….)<sub>10</sub> <br>c. (127)<sub>8</sub> = (…..)<sub>16</sub> = (….)<sub>2</sub></p>
                                                 <p>2. Hitunglah: </p>

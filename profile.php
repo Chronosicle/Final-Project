@@ -14,7 +14,7 @@
     mysqli_close($conn);
     $data = mysqli_fetch_assoc($rows);
 
-    $pageTitle = 'Profile @'.$data['username'].' | Instagram KA WE :)';
+    $pageTitle = 'Profile @'.$data['username'];
     include 'header.php';
 ?>
     

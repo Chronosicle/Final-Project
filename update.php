@@ -48,7 +48,7 @@
     
     mysqli_close($conn);
     
-    $pageTitle = 'Update Profile | Instagram KA WE :)';
+    $pageTitle = 'Update Profile';
     include 'header.php';
 ?>
     <div class="jumbotron">
