@@ -51,14 +51,6 @@
     $pageTitle = 'Update Profile | Instagram KA WE :)';
     include 'header.php';
 ?>
-   <nav>
-        <ul class="menu">
-            <li class="item"><a href="index.php">Home</a></li>
-            <li class="item has-submenu">
-            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-        </ul>
-    </nav>
-
     <div class="jumbotron">
         <div class="container">
         <form action="update.php" method="POST" enctype="multipart/form-data">

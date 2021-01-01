@@ -42,13 +42,6 @@
     $pageTitle = 'Login';
     include 'header.php';
 ?>
-    <nav>
-    <ul class="menu">
-        <li class="item"><a href="index.php">Home</a></li>
-        <li class="item has-submenu">
-        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-    </ul>
-    </nav>
     
     <div class="jumbotron">
         <div class="container mt-4">
@@ -61,7 +54,7 @@
         
         <div class="form-group">
             <label>Password</label>
-            <input type="password" class="form-control" id="password" name="password">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Your password">
         </div>
         
         <button type="submit" name="submit" id="submit" class="btn btn-primary">Submit</button>
