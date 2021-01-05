@@ -16,7 +16,7 @@
             $username = $_POST['username'];
             $hash = password_hash($_POST['password'], PASSWORD_BCRYPT);
             $password = password_verify($_POST['password'], $hash);
-    
+
             $sql = "SELECT * FROM users WHERE `username`='$username'";
             $result = mysqli_query($conn,$sql);
             $row = $result->fetch_assoc();
